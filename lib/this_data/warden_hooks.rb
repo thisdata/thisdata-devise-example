@@ -58,6 +58,10 @@ Warden::Manager.before_logout do |user, proxy, opts|
   ThisData.track(payload)
 end
 
+#
+# Extra for experts - you must override Devise's default SessionsController
+#
+
 # Track failed login
 #
 # To get the user, we must override the default SessionsController's

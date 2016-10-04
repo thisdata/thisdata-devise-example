@@ -52,5 +52,3 @@ ThisData.setup do |config|
   # config.expect_js_cookie = true
 
 end
-
-ThisData::Client.base_uri "http://api.thisdata.dev:9293/v1/"
